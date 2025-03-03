@@ -2,6 +2,12 @@ body {
     overflow: hidden;
     font-family: "Roboto", serif;
     background: linear-gradient(135deg, rgb(0, 0, 0), #4a285c);
+      background: url('birthday-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+  
   }
   
   .carousel {
@@ -189,7 +195,7 @@ body {
     transition-duration: 0.7s;
   }
   
-  @font-face {
+  @font-face{
     font-family: "Orelo-sw-db";
     font-weight: inherit;
     font-style: inherit;
